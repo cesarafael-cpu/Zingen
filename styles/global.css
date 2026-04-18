@@ -31,19 +31,24 @@
   /* Produto */
   --brand-gradient: #FC4A1A #F7B733;
   --brand-color-primary: #F7B733;
-   --brand-color-secondary: #FC4A1A;
+  --brand-color-secondary: #FC4A1A;
 
-   --font-family: 'Inter', system-ui, sans-serif;
-   --fw-base: 400;
-   --ff-md: 500;
-   --ff-bold: 800;
-  
-   /* mobile */
-   --fs-sm: 0.875rem;
-   --fs-md: 1rem;
-   --fs-lg: 1.25rem;
-   --fs-xl: 1.5rem;
-   --fs-2xl: 2.5rem;
+  --font-family: 'Inter', system-ui, sans-serif;
+  --fw-base: 400;
+  --ff-md: 500;
+  --ff-bold: 800;
+
+  /* mobile */
+  --fs-sm: 0.875rem;
+  --fs-md: 1rem;
+  --fs-lg: 1.25rem;
+  --fs-xl: 1.5rem;
+  --fs-2xl: 2.5rem;
+
+  --py-base: 1rem; /* eixo Y de espaçamentos na paste de cima e na parte de baixo */
+  --py-lg: 1.5rem;
+  --py-xl: 3rem;
+  --px-lg: 1.5rem; /*padding do eixo x (inline, do lado direito e esquerdo) do mobile */
 }
 
 html {
@@ -91,5 +96,11 @@ ul[role="list"] {
     --fs-lg: 2rem;
     --fs-xl: 3rem;
     --fs-2xl: 4rem;
+
+    --py-base: 1.5rem; 
+    --py-lg: 2rem;
+    --py-xl: 2.5rem;
+    --py-2xl: 5rem;
+    --px-lg: 2rem;
   }
 }
