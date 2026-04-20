@@ -48,3 +48,15 @@
     grid-auto-columns: 1fr;
   }
 }
+
+.flex {
+  display: flex; /* conteúdo um ao lado do outro */
+}
+
+.gap1 {
+  gap: 1rem;
+}
+
+.grid {
+  display: grid; /* conteúdo um embaixo do outro */
+}
