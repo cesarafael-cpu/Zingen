@@ -21,7 +21,7 @@
 .container {
   --max-width: 375px;
   width: min(var(--max-width), 100% - var(--px-lg) * 2); /* multiplica por 2 para pegar os dois lados */
-  border: solid violet;
+  /* border: solid violet; */
   margin-inline: auto;
 }
 
@@ -53,8 +53,16 @@
   display: flex; /* conteúdo um ao lado do outro */
 }
 
+.items-center {
+  align-items: center;;
+}
+
 .gap1 {
   gap: 1rem;
+}
+
+.gap-1\.5 {
+  gap: 1.5rem;
 }
 
 .grid {
