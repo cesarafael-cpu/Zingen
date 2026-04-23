@@ -1,5 +1,5 @@
 header {
-  & a:first-child {
+  & a:first-child { /* seleciona o primeiro link dentro do header, ou seja, o logo */
     margin-right: auto;
   }
 }

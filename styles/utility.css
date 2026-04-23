@@ -1,5 +1,5 @@
 .py-base {
-  padding-block: var(--py-base); 
+  padding-block: var(--py-base); /* padding do eixo y, ou seja, de cima e de baixo */
 }
 
 .py-lg {
@@ -61,7 +61,7 @@
   gap: 1rem;
 }
 
-.gap-1\.5 {
+.gap-1\.5 { /* para usar o gap-1.5, tem que escapar o ponto com \ */
   gap: 1.5rem;
 }
 

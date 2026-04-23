@@ -1,0 +1,49 @@
+#hero {
+ text-align: center;
+ 
+ & img[src*="music"] { /*seleciona a imagem que tem "music" no src, ou seja, a imagem de música */
+
+  width: 12.875rem;
+ }
+
+ & h1 {
+  margin-top: 1rem;
+ }
+ 
+ & p {
+    font: var(--fw-md) var(--fs-lg)/1.4 var(--ff-sans);
+    color: var(--text-color-secondary);
+    margin-top: .5rem;
+  }
+
+ & .buttons {
+    justify-content: center;
+    margin-top: 2rem;
+  }
+}
+
+@media (width >= 80em) { /*configuração para quando for o desktop */
+  
+  #hero {
+    background: url(../assets/bg-hero-desktop.svg) no-repeat bottom center/contain; /*coloca a imagem de fundo, sem repetir, alinhada ao centro e na parte inferior, e com o tamanho ajustado para caber dentro do container */
+
+    padding-bottom: 15rem; /* para dar um espaçamento entre o conteúdo e a borda inferior, já que a imagem é grande */
+
+    & img[src*="music"] {
+      width: 25.75rem;
+    }
+
+    & h1 {
+      margin-top: 1.5rem;
+    }
+
+    & P {
+      margin-top: 1rem;
+      font-size: 2.5rem;
+    }
+
+    .buttons {
+      margin-top: 3rem;
+    }
+  }
+}
