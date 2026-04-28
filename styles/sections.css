@@ -1,0 +1,33 @@
+#smartphones-img {
+  margin-top: 5rem;
+  background: url(../assets/illustration.svg) top/cover;
+}
+
+section {
+  & header { /*seleciona o header dentro da section, ou seja, o título de cada seção */
+
+    & strong {
+      display: block;
+      font: var(--fw-ms) var(--fs-sm)/100% var(--ff-sans); /*configura a fonte para o texto em negrito, usando as variáveis definidas no global.css para o peso da fonte, tamanho da fonte, altura da linha e família da fonte. O display: block; faz com que o elemento seja exibido como um bloco, ocupando toda a largura disponível e iniciando em uma nova linha. */
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      
+      color: var(--brand-color-primary);
+    }
+
+    & h2 {
+      margin-top: .5rem;
+    }
+  }
+
+  & p {
+    margin-top: .5rem;
+    color: var(--text-color-secondary);
+  }
+}
+
+@media (width >= 80em) {
+  #smartphones-img {
+    display: none; /*esconde a imagem de fundo, já que ela é grande e não se encaixa bem no layout do desktop */
+  }
+}
