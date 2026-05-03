@@ -50,6 +50,7 @@
 
 .btn[aria-label] {
   position: relative;
+  /* height: 3rem; */
 
   &::before {
     content: "";
