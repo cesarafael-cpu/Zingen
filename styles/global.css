@@ -59,6 +59,8 @@ html {
   color: var(--text-color-primary);
 
   overflow-x: hidden; /* Evita que o conteúdo ultrapasse a largura da tela, prevenindo scroll horizontal. */;
+
+  scroll-behavior: smooth; /* Permite que a rolagem para âncoras seja suave, em vez de instantânea. */
 }
 
 body {

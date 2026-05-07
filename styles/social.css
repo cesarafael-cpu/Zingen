@@ -7,10 +7,9 @@ a.social {
 
   -webkit-background-clip: initial; /* para que o gradiente fique apenas no texto, e não no fundo do botão */
 
-  background-clip: initial;/
+  background-clip: initial;
 
-  &[aria-label="tiktok"] { /*seleciona o botão com aria-label igual a tiktok, ou seja, o botão do tiktok */
-    
+  &[aria-label="tiktok"] {
     --bg-img: url(../assets/icons/tiktok.svg);
 
     &:hover {

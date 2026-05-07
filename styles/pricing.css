@@ -1,3 +1,8 @@
+#pricing {
+  --fs-price: 2rem;
+  --fs-price-small: 1rem;
+}
+
 #pricing header {
   text-align: center;
 }
@@ -13,7 +18,7 @@
 
 #pricing h3 {
   font-size: 1.25rem;
-  margin-top: 1.5rem;
+  /* margin-top: 1.5rem; */
 }
 
 #pricing .premium h3 {
@@ -26,12 +31,12 @@
 
 #pricing zin-pricing {
   display: block;
-  padding-block: 1.5rem; 
+  padding-block: 1.5rem;
   font: var(--fw-bold) var(--fs-price)/1.2 'Poppins', sans;
 }
 
 #pricing zin-pricing small {
-  font: var(--fs-base) var(--fw-base) 'Poppins', sans;
+  font-size: var(--fs-price-small);
   color: var(--text-color-secondary);
 }
 
@@ -130,7 +135,9 @@
 }
 
 @media (width >=80em) {
-  /* --fs-price: 2.5rem, */
+  /* #pricing {
+    --fs-price: 2.5rem,
+  } */
 
   & header {
     max-width: 50rem;
@@ -142,7 +149,7 @@
   }
 
   #pricing .card:nth-child(3) .separator {
-    margin-block: 2rem;
+    /* margin-block: 2rem; */
   }
 
   .btn-md {
